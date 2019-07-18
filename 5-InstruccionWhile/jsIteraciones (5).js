@@ -1,9 +1,9 @@
 function mostrar()
 {
-
-var sexo = prompt("ingrese f ó m .");
-
-
+var sexo;
+do{
+sexo = prompt("ingrese f ó m .");
+}while (sexo!="F" && sexo!="M");
 
 document.getElementById('Sexo').value=sexo;
 
